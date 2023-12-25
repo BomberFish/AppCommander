@@ -1,0 +1,3 @@
+[submodule "AppCommander/External/ChOma"]
+	path = AppCommander/External/ChOma
+	url = https://github.com/opa334/ChOma

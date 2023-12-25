@@ -4,11 +4,18 @@
 
 import SwiftUI
 
+var isTrollStore = false
+
 @main
 struct AppCommanderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+//                .onAppear {
+//                    if FileManager.default.isReadableFile(atPath: "/var/mobile") {
+//                        isTrollStore = true
+//                    }
+//                }
         }
     }
 }
